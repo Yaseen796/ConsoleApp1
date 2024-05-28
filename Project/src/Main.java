@@ -10,5 +10,10 @@ public class Main {
         System.out.println("model = " + c.getModel());
         System.out.println("color = "+ c.getColor());
         c.describeCae();
+        Car n = new Car();
+        n.setColor("Green");
+        n.setMake("Jeep");
+        n.setModel("Rubicon");
+        n.describeCae();
     }
 }
